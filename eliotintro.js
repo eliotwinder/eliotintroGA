@@ -17,7 +17,7 @@ $(function() {
     });
 
     $('#lin').click(function(){
-    	$('#summary,#work,#education').hide()
+    	$('#content div').hide();
     	$('#links').show();
     });
 });
